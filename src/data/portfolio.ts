@@ -13,8 +13,8 @@ export const profile = {
   location: 'Egypt',
   email: 'abdalkreemm31@gmail.com',
   whatsapp: '201090381533',
-  photoPath: '/my_Photo.png', // Add a public image path, for example: /images/mohamed.jpg
-  resumePath: '/resume/Mohamed_Abdalkreem_CV.pdf',
+  photoPath: `${import.meta.env.BASE_URL}my_Photo.png`,
+  resumePath: `${import.meta.env.BASE_URL}resume/Mohamed_Abdalkreem_CV.pdf`,
   contactFormEndpoint: import.meta.env.VITE_FORMSPREE_ENDPOINT || 'https://formspree.io/f/mdegklrv',
 } as const
 
