@@ -151,12 +151,19 @@ function Header() {
 }
 
 function Hero() {
+  const [photoAvailable, setPhotoAvailable] = useState(Boolean(profile.photoPath))
+
   return (
     <section className="hero section-wrap">
       <Reveal className="hero-portrait">
         <div className="portrait-frame">
-          {profile.photoPath ? (
-            <img className="portrait-image" src={profile.photoPath} alt={profile.name} />
+          {photoAvailable ? (
+            <img
+              className="portrait-image"
+              src={profile.photoPath}
+              alt={profile.name}
+              onError={() => setPhotoAvailable(false)}
+            />
           ) : (
             <div className="portrait-placeholder">
               <div className="portrait-monogram">MA<span>.</span></div>

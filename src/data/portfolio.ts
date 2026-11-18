@@ -5,7 +5,7 @@ export const profile = {
   intro:
     'I build thoughtful backend applications with ASP.NET Core, and bring a problem-solving mindset shaped by thousands of programming challenges.',
   about: [
-    'I’m a Backend Software Engineer passionate about building efficient, scalable, and maintainable applications using C# and ASP.NET Core. I specialize in developing RESTful APIs, designing database-driven systems, implementing secure authentication, and applying software engineering principles to build reliable solutions. As a competitive programmer, I’ve solved over 4,000 algorithmic problems across platforms like Codeforces and LeetCode, achieved Specialist rank on Codeforces, and ranked 4th in an ECPC qualification round. My experience also includes integrating AI services with backend systems, optimizing database performance, and mentoring junior programmers in algorithms and data structures. I enjoy tackling challenging engineering problems, exploring how systems work internally, and continuously improving my problem-solving and development skills.',
+    'I’m a Backend Software Engineer passionate about building efficient, scalable, and maintainable applications using C# and ASP.NET Core. I specialize in developing RESTful APIs, designing database-driven systems, implementing secure authentication, and applying software engineering principles to build reliable solutions. As a competitive programmer, I’ve solved over 3,500 algorithmic problems across platforms like Codeforces and LeetCode, achieved Specialist rank on Codeforces, and ranked 4th in an ECPC qualification round. My experience also includes integrating AI services with backend systems, optimizing database performance, and mentoring junior programmers in algorithms and data structures. I enjoy tackling challenging engineering problems, exploring how systems work internally, and continuously improving my problem-solving and development skills.',
   ],
   education: "B.Sc. Computer Science at Beni Suef University  Class of 2025",
   gpa: '3.21 / 4.0',
@@ -179,7 +179,7 @@ export const educationEntry = {
 } as const
 
 export const achievements = [
-  { value: '4,000+', label: 'Problems Solved', detail: 'Across programming platforms' },
+  { value: '3,500+', label: 'Problems Solved', detail: 'Across programming platforms' },
   { value: '1428', label: 'Codeforces Specialist', detail: 'Maximum rating' },
   { value: '4th / 40th', label: 'ECPC Qualifications', detail: '4th on Day 7 · 40th overall in 2022' },
 ] as const
